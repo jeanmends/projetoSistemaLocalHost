@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="logado.js"></script>
+</head>
+<body>
+    <div class="conteudo-geral">
+        <header>
+            <h1>PROJETO JAVASCRIPT LOCALHOST</h1>
+        </header> 
+        <div class="menu">
+            <ul>
+                <li id="ativo"><a href="inicio.html">Início</a></li>
+                <!--<li><a href="alterarUsuario.html">Cadastro</a></li>
+                <li><a href="#">Sair</a></li>-->
+            </ul>
+            <div id="icon-user">
+                <img src = "imagens/icone-pagina-usuario.png" class = "icone-usuario">
+                <div class="content-teste">
+                    <a href="alterarUsuario.html">Editar Cadastro</a>
+                    <a href="#" id="sair-pagina">Sair</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-tarefas">
+            <h1>Olá, <span id="pessoa-logado"></span>!</h1>
+            <br>
+            <br>
+            <h1>Suas Terefas</h1>
+            <br>
+            <br>
+            <div id="formulario-tarefa">
+                <p>Adicionar Nova Tarefa</p>
+            
+                <input type="text" id="nv-tarefa" placeholder="Digite a tarefa" autofocus> 
+                <button class="btns" id="btn-nova-tarefa">Adicionar</button>
+                <br>
+              
+                <button class="btns" id="salvar-alterar-tarefa">Salvar Atulização </button>
+                <br>
+                
+                <table id="visuliazar-tarefa">
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="cadastrarTarefa.js"></script>
+    <script src="sair.js"></script>
+</body>
+</html>

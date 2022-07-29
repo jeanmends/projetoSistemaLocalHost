@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="content">
+        <div class="formulario">
+            <p>Nome: </p><input type="text" id="nome">
+            <p>Login: </p><input type="text" id="usuario">
+            <p>Senha: <span>Mínimo 6 digitos e máximo 20</span></p><input type="password" id="senha" minlength="6" maxlength="20">
+            <br>
+            <br>
+            <button id="btn-cadastrar">Cadastrar</button>
+            <button id="btn-visualizar">Visualizar</button>
+        </div>
+        <div class="visulizando">
+            <table id="visuliazar-cadastro">
+
+            </table>
+        </div>
+        <div class="logar">
+         
+            <p>Login: </p><input type="text" id="usuario-logar">
+            <p>Senha: </p><input type="text" id="senha-logar">
+            <br>
+            <button id="btn-logar">Entrar</button>
+        </div>
+    </div>
+ 
+<script src="cadastro.js"></script>    
+</body>
+</html>

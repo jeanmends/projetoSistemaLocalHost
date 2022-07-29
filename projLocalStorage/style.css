@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#visuliazar-cadastro{
+    display:none;
+}
+
+tr, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 5px;
+}
+tr:nth-child(odd){
+    background-color: rgb(204, 224, 224);
+    color: #000;
+
+}
+tr:nth-child(even){
+    background-color: rgb(146, 146, 151);
+    color: #000;
+
+}
+
+
+
+table{
+    border-collapse: collapse;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(206, 206, 206, 0.87);
+}
+.conteudo-geral{
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(255, 252, 75, 0.836);
+    color:#000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    background-color: rgba(0, 255, 255, 0.774);
+    border-bottom: 2px solid azure;;
+}
+.menu > ul > li{
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+   
+}
+.menu > ul > li:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+#ativo{
+    background-color: azure;
+    cursor: pointer;
+}
+
+.menu > ul > li > a:link{
+text-decoration: none;
+}
+.menu > ul > li > a:visited{
+    text-decoration: none;
+    color: #000;
+}
+.menu > ul > li > a{
+    text-decoration: none;
+    }
+
+    .menu > ul > li > a:active{
+        text-decoration: none;
+        }
+main > p{
+    display: flex;
+    align-items: center;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.icones{
+    width: 30px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.main-cadastro{
+    display: flex;
+    justify-content: center;
+}
+.main-cadastro > .formulario > p{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main-cadastro > .formulario > p > span{
+    font-size: 13px;
+}
+.btns{
+    background-color: rgb(98, 229, 238);
+    font-size: 20px;
+    padding: 3px;
+    border: 2px solid rgb(32, 174, 218);
+}
+
+.btns:hover{
+    background-color: rgb(199, 235, 238);
+    color:rgb(15, 160, 170);
+    cursor: pointer;
+}
+
+
+.logar-geral{
+    display: flex;
+    justify-content:center;
+}
+
+.tela-gerenciar{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+    padding: 5px;
+}
+.tela-gerenciar > 
+.area-gerenciar >
+.btns-gerenciar > a >
+.img-gerenciar{
+    width:150px;
+}
+
+.area-gerenciar{
+    display: flex;
+    justify-content:center;
+    flex-direction: row; 
+}
+
+.btns-gerenciar, .btns-gerenciar > a{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns-gerenciar{
+    width: 150px;
+    
+}
+.btns-gerenciar:hover{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border: 2px solid rgb(230, 255, 3);
+}
+.btns-gerenciar > a{
+    text-decoration: none;
+}
+
+.btns-gerenciar > a:visited{
+    text-decoration: none;
+    color:#000;
+}
+
+.btns-gerenciar > a:link{
+    text-decoration: none;
+    color:#000;
+}
+
+.gerenciar-usuarios{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}

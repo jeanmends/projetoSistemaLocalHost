@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteudo-geral">
+        <header>
+            <h1>PROJETO JAVASCRIPT LOCALHOST</h1>
+        </header> 
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li id="ativo"><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        <div class="main-cadastro">
+            <div class="formulario">
+                <br>
+                <p>Nome: </p><input type="text" id="nome" autofocus> <br>
+                <br>
+                <p>Login: </p><input type="text" id="usuario"><br>
+                <br>
+                <p>Senha: <span>Mínimo 6 digitos e máximo 20</span></p><input type="password" id="senha" minlength="6" maxlength="20">
+                <br>
+                <br>
+                <button id="btn-cadastrar" class="btns">Cadastrar</button>
+                <button id="btn-limpar" class="btns">Limpar</button>
+            </div>
+        </div>
+    </div>
+<script src="cadastrar.js"></script>
+</body>
+</html>
